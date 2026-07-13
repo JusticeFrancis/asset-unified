@@ -1,0 +1,21 @@
+<svg
+  width="28"
+  height="28"
+  viewBox="0 0 28 28"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+>
+  <circle
+    cx="14"
+    cy="14"
+    r="13.5"
+    fill="white"
+    stroke="#E2E8F0"
+    stroke-width="0.5"
+  />
+  <path
+    d="M9.2 19V9.1h4.1c2.4 0 3.9 1.35 3.9 3.35 0 1.35-.65 2.4-1.85 2.95L17.4 19h-2.45l-1.85-3.35h-1.9V19H9.2zm4.05-5.65c1.05 0 1.65-.55 1.65-1.4 0-.85-.6-1.35-1.65-1.35h-1.55v2.75h1.55z"
+    fill="#191C1F"
+  />
+</svg>

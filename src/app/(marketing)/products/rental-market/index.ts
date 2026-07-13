@@ -1,0 +1,1 @@
+export { RentalMarketPage } from "./RentalMarketPage";

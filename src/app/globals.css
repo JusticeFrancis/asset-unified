@@ -1,0 +1,65 @@
+@config "../../tailwind.config.ts";
+@import "tailwindcss";
+
+:root {
+  --color-background: #f5f7f8;
+  --color-surface: #edf4f8;
+  --color-foreground: #050a0e;
+  --color-muted: #2c373f;
+  --color-brand: #5c60cc;
+  /* Aligns with asset-union-admin; consumed by nextjs-toploader. */
+  --application-base: var(--color-brand);
+  --color-brand-soft: #d0d2f0;
+  --color-accent: #8672ca;
+  --color-footer: #0d141a;
+  --color-border: #cfe2ec;
+  /* Top offset that clears the absolute marketing Header. Mobile-first;
+     overridden at md+ below. Consume via Tailwind's `pt-header` utility. */
+  --header-offset: 80px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-offset: 120px;
+  }
+}
+
+/* Lock body scroll when the mobile nav sheet is open. */
+body[data-scroll-locked] {
+  overflow: hidden;
+  touch-action: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.font-geologica {
+  font-family: "Geologica", "DM Sans", "Segoe UI", Arial, sans-serif;
+}

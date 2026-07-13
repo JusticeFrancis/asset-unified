@@ -1,0 +1,1 @@
+export type ReferralListRow = { id?: string; name: string; email: string; signUpDate: string; avatarSrc: string | null; status?: string; rewardAmount?: number; rewardAsset?: string; points?: number };

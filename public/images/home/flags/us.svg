@@ -1,0 +1,33 @@
+<svg
+  width="14"
+  height="10"
+  viewBox="0 0 14 10"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<rect width="14" height="10" rx="2" fill="white" />
+<path d="M14 0H0V0.769H14V0Z" fill="#D02F44" />
+<path d="M14 1.538H0V2.307H14V1.538Z" fill="#D02F44" />
+<path d="M14 3.077H0V3.846H14V3.077Z" fill="#D02F44" />
+<path d="M14 4.615H0V5.385H14V4.615Z" fill="#D02F44" />
+<path d="M14 6.154H0V6.923H14V6.154Z" fill="#D02F44" />
+<path d="M14 7.692H0V8.462H14V7.692Z" fill="#D02F44" />
+<path d="M14 9.231H0V10H14V9.231Z" fill="#D02F44" />
+<rect width="6" height="5.385" rx="1" fill="#46467F" />
+<circle cx="1.2" cy="1.1" r="0.25" fill="white" />
+<circle cx="2.4" cy="1.1" r="0.25" fill="white" />
+<circle cx="3.6" cy="1.1" r="0.25" fill="white" />
+<circle cx="4.8" cy="1.1" r="0.25" fill="white" />
+<circle cx="1.8" cy="2.1" r="0.25" fill="white" />
+<circle cx="3" cy="2.1" r="0.25" fill="white" />
+<circle cx="4.2" cy="2.1" r="0.25" fill="white" />
+<circle cx="5.4" cy="2.1" r="0.25" fill="white" />
+<circle cx="1.2" cy="3.1" r="0.25" fill="white" />
+<circle cx="2.4" cy="3.1" r="0.25" fill="white" />
+<circle cx="3.6" cy="3.1" r="0.25" fill="white" />
+<circle cx="4.8" cy="3.1" r="0.25" fill="white" />
+<circle cx="1.8" cy="4.1" r="0.25" fill="white" />
+<circle cx="3" cy="4.1" r="0.25" fill="white" />
+<circle cx="4.2" cy="4.1" r="0.25" fill="white" />
+<circle cx="5.4" cy="4.1" r="0.25" fill="white" />
+</svg>

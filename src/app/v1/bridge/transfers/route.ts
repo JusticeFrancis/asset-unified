@@ -1,0 +1,2 @@
+import { NextResponse } from "next/server"; import { authenticatedUser } from "@/lib/server/auth"; import { bridgeRequest } from "@/lib/server/bridge"; import { apiError } from "@/lib/server/responses";
+export async function POST(request: Request) { if (!(await authenticatedUser(request))) return apiError("UNAUTHORIZED", "Authentication required", 401); const result = await bridgeRequest("/transfers", request, await request.json()); return NextResponse.json(result.data, { status: result.status }); }
